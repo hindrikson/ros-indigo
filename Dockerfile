@@ -10,7 +10,6 @@ RUN apt-get install -y \
     python-argparse \
     python-wstool \
     curl
-    # wget \
     
 # Set up the ROS workspace
 RUN mkdir -p /home/ros_ws/src 
